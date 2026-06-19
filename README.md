@@ -1,17 +1,34 @@
-# motosiklet_takip
+# 🏍️ RS 200 PRO GARAJ
 
-A new Flutter project.
+Pulsar RS 200 motosiklet kullanıcıları için özel olarak tasarlanmış, bakım periyotlarını ve yakıt tüketimini anlık olarak takip eden dinamik bir mobil/masaüstü garaj yönetim uygulamasıdır. 
 
-## Getting Started
+Bu proje, bir **Bilgisayar Mühendisliği** çalışması olarak veri kalıcılığı ve dinamik arayüz yönetimi prensipleri doğrultusunda geliştirilmiştir.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Öne Çıkan Özellikler
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* **Dinamik Kilometre (ODO) Takibi:** Motosikletin güncel kilometresini girdiğinizde, bakım periyotları (zincir, yağ) otomatik olarak hesaplanır.
+* **Anlık Yakıt Hesaplayıcı:** Alınan yakıt ve gidilen yol bilgisi girildiği an, 100 KM'deki ortalama tüketim saliseler içinde arayüzde güncellenir.
+* **Veri Kalıcılığı (Data Persistence):** Girilen güncel kilometre, bakım durumları, muayene tarihi ve lastik basıncı gibi kritik veriler uygulama kapatılsa dahi hafızada saklanır.
+* **Düzenlenebilir Detaylar Paneli:** Muayene geçerlilik tarihi ve ideal lastik basınçları uygulama içerisinden dinamik olarak klavyeyle güncellenebilir.
+* **Özel Gece Sürüşü Teması:** Motosiklet ruhuna uygun, şeffaf kart katmanları ve turuncu detaylarla optimize edilmiş karanlık arayüz tasarımı.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+* **Framework:** [Flutter](https://flutter.dev) (Dart)
+* **Veri Tabanı / Kalıcılık:** `SharedPreferences` (Lokal Key-Value Storage)
+* **State Management:** `setState` (Dinamik Arayüz Yönetimi)
+* **Varlık Yönetimi:** Yerel Asset Yönetimi (AssetImage)
+
+---
+
+## 📦 Kurulum ve Çalıştırma
+
+Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
+
+1. Bu depoyu klonlayın:
+   ```bash
+   git clone [https://github.com/mirac344/rs_200_pro_garaj.git](https://github.com/mirac344/rs_200_pro_garaj.git)
